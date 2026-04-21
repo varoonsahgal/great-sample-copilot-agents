@@ -1,8 +1,7 @@
-# Amazing Copilot Studio Agents
+# Great Sample Copilot Studio Agents
 
-> **50 production-ready declarative agents for Microsoft 365 Copilot.**
+> **50 declarative agents for Microsoft 365 Copilot.**
 > Paste each instruction block into Copilot Studio → New agent → Instructions field.
-> No coding required. Deploy in minutes.
 
 > **50 production-ready agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
 
