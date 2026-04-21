@@ -10,13 +10,11 @@
 
 ## What This Is
 
-A curated library of instruction sets for [Microsoft 365 Copilot declarative agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent). Each agent is a paste-ready instruction block, ready to deploy without configuration files, coding, or Azure resources.
+A curated library of instruction sets for [Microsoft 365 Copilot declarative agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent). Each agent is a paste-ready instruction block.
 
 Every agent in this library:
 - Requires a Microsoft 365 Copilot licence (the paid add-on — not included in standard M365 plans)
-- Defaults to formal professional English (British spelling)
-- Includes a banned vocabulary list to prevent AI-sounding language
-- Includes a built-in quality self-check the agent runs before every response
+- Defaults to formal professional English
 - Stays within the 8,000-character Copilot Studio instruction limit
 
 ---
@@ -141,9 +139,8 @@ Every agent in this library:
 | 45 | [**Contract Language Simplifier**](agents/commercial-legal/contract-language-simplifier.md) | Rewrite dense contractual clauses into plain language | All Staff / Business Managers | None | `@Contract Simplifier ...` |
 | 46 | [**Policy Summariser**](agents/commercial-legal/policy-summariser.md) | Convert long policy documents into what you must do, what is prohibited | HR / Compliance / All Staff | None | `@Policy Summariser ...` |
 
-### Advanced / MCP-Enabled
+### Advanced
 
-> These agents require platform connections via Microsoft Graph API. Deploy after all instruction-only agents are stable.
 
 | # | Agent | Description | Audience | Knowledge | Invoke |
 |---|-------|-------------|----------|-----------|--------|
